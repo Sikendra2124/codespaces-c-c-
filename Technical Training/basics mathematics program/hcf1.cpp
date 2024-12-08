@@ -3,14 +3,10 @@ using namespace std;
 
 //this logic algorith is known as euclidean algorithm
 int gcd(int x, int y){
-    while(x!=y){
-        if(x>y){
-            x=x-y;
-        }else{
-            y=y-x;
-        }
-    }
-    return x;
+    if(y==0){
+        return x;
+    }else
+    return gcd(x,x%y);
 }
 
 int main(){
