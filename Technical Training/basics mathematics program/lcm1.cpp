@@ -13,9 +13,3 @@ int lcm(int a,int b){
 }
 
 
-// int main(){
-//     int a,b;
-//     cout<<"enter the value of a and b:";
-//     cin>>a>>b;
-//     cout<<"lcm="<<lcm(a,b);
-// }
